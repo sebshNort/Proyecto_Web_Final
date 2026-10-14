@@ -1,0 +1,29 @@
+.hi-page {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+.hi-header { display: flex; justify-content: space-between; align-items: center; }
+.hi-header h1 { margin: 0; text-transform: uppercase; }
+.hi-header button {
+  padding: 0.5rem 1rem;
+  border: 2px solid #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hi-usuario { margin: 0.5rem 0 1rem; }
+
+.hi-tabla-wrap { overflow-x: auto; }
+.hi-tabla { width: 100%; border-collapse: collapse; }
+.hi-tabla th, .hi-tabla td {
+  border: 2px solid #333;
+  padding: 0.6rem;
+  text-align: left;
+  white-space: nowrap;
+}
+.hi-victoria { color: #1e8449; font-weight: bold; }
+.hi-derrota { color: #c0392b; font-weight: bold; }
+.hi-pendiente { opacity: 0.7; }

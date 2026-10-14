@@ -1,0 +1,68 @@
+.inicio { width: 100%; max-width: 900px; margin: 0 auto; padding: 1rem; }
+
+.inicio-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #333;
+}
+.inicio-logo { margin: 0; font-size: 1.2rem; text-transform: uppercase; line-height: 1.2; }
+.inicio-buscador { flex: 1; }
+.inicio-buscador input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 2px solid #333;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.inicio-usuario { text-decoration: underline; color: inherit; white-space: nowrap; }
+
+.inicio-subtitulo { margin: 1.5rem 0 1rem; }
+
+.categoria { border-bottom: 1px solid #ccc; }
+.categoria-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 0;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+}
+.chevron { transition: transform 0.2s; }
+.chevron.abierto { transform: rotate(180deg); }
+.categoria-body { padding-bottom: 1rem; }
+
+.apuesta-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+  border: 2px solid #333;
+  border-radius: 4px;
+}
+.apuesta-info h3 { margin: 0 0 0.3rem; }
+.apuesta-info p { margin: 0 0 0.3rem; }
+.apuesta-card button {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #333;
+  background: #1404f5;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resultados { margin-bottom: 1rem; }
+.resultados-titulo { display: flex; justify-content: space-between; align-items: center; }
+
+@media (max-width: 600px) {
+  .inicio-header { flex-wrap: wrap; }
+  .inicio-buscador { order: 3; flex-basis: 100%; }
+}
