@@ -1,0 +1,50 @@
+.gu-page {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+.gu-titulo { margin: 0; text-transform: uppercase; }
+.gu-subtitulo { margin: 0.25rem 0 1.5rem; font-weight: normal; opacity: 0.8; }
+
+.gu-seccion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 0 1.5rem;
+  border-top: 1px solid #ccc;
+}
+.gu-seccion h3 { margin: 0 0 0.5rem; }
+.gu-seccion label { font-weight: bold; margin-top: 0.4rem; }
+.gu-seccion input {
+  padding: 0.6rem;
+  border: 2px solid #333;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+}
+
+.gu-historial {
+  margin-bottom: 1rem;
+  padding: 0.7rem 1rem;
+  border: 2px solid #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.gu-peligro { border-top: 2px solid #c0392b; }
+.gu-botones .gu-eliminar { border-color: #c0392b; color: #c0392b; }
+
+.gu-botones { display: flex; gap: 1rem; margin-top: 1rem; }
+.gu-botones button {
+  flex: 1;
+  max-width: 190px;
+  padding: 0.7rem;
+  border: 2px solid #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+.gu-botones button:disabled { opacity: 0.5; cursor: not-allowed; }
