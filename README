@@ -1,3 +1,4 @@
 Existen routes y controladores de practica
 esos son apuesta.routes.js como route de practica y el cual use para ver si todo funcionaba
 y apuestas.controller.js que se implemento por las mismas razones
+Ademas se envia la base de datos para poder utilizarse
