@@ -1,9 +1,0 @@
-SERVER: localhost
-
-Nombre de usuario: Usuario_Backend
-
-admin9_2*-1    -password_base de datos
-
-Base de datos: APUESTAS
-
-PORT:11982
