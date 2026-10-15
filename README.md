@@ -1,16 +1,31 @@
-# React + Vite
+Proyecto final de web
+Curso: Desarrollo de aplicaciones web
+Trimestre-Agosto/Octubre 
+Año: 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Division del proyecto
+El proyecto lo divido en varias capas
 
-Currently, two official plugins are available:
+Base de datos- Realizada en SQL SERVER 2022 donde se encuentran actualmente 4 tablas
+Apuestas
+Usuario
+Historial
+tApuestas (esta es para practicar y testear las diferentes APIS)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Backend- Realizado utilizando express, crono, mssql para la conexion a la base de datos y env (para la conexion a la base de datos)
+Esta esta dividida en:
+Connection (para la base de datos)
+Controllers (para lo que realizara cada api a consultar)
+Routes (Donde se encuentran las rutas a las diferentes apis y sus metodos)
+services (Esta se hizo especificamente para un servicio en segundo plano que correra al momento de inicializar el backend)
+jobs (donde se encuentra el trabajo en segundo plano)
 
-## React Compiler
+Frontend- Realizado utilizando REACT, Vite, json y axios para la toma de las rutas y los request a consultar
+Se divide en:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ASSETS donde se encuentran las imagenes
+Components donde estan los componentes
 
-## Expanding the Oxlint configuration
+Las APIS fueron probadas utilizando Postman
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+La aplicacion mostrada aqui es la primera version (la que se hizo para el proyecto), pero, se espera actualizar para implementar mas funcionalidades que estaban esperadas implementar pero por el tiempo no se pudo concebir
